@@ -1,0 +1,92 @@
+
+/* Estilos do conteúdo de boas-vindas */
+.welcome {
+  background-color: #f9f9f9;
+  padding: 3rem;
+  text-align: center;
+}
+
+.welcome h1 {
+  color: #333;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.welcome p {
+  color: #666;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.welcome button {
+  background-color: #e50914;
+  border: none;
+  border-radius: 0.25rem;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+}
+
+.welcome button:hover {
+  background-color: #f00;
+}
+
+.welcome button:active {
+  background-color: #c00;
+}
+
+/* Estilos dos destaques */
+.destaques {
+  padding: 30px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.destaques h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.destaques ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.destaques li {
+  margin: 10px;
+  width: 250px;
+  height: 400px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.destaques li:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.destaques li img {
+  max-width: 200px;
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.destaques li h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.destaques li p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
